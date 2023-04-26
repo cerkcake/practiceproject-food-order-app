@@ -5,8 +5,8 @@ import MealsAvailable from "./MealsAvailable";
 const Meals = () => {
   return (
     <React.Fragment>
-      <MealsAvailable />
       <MealsSummary />
+      <MealsAvailable />
     </React.Fragment>
   );
 };
